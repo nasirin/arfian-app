@@ -1,0 +1,90 @@
+CRITICAL - 2021-07-08 07:59:00 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Home.php(9): view('pages/home')
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-07-08 07:59:14 --> Invalid file: layout/home.php
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/home', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Home.php(9): view('pages/home')
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-07-08 07:59:15 --> Invalid file: layout/home.php
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/home', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Home.php(9): view('pages/home')
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-07-08 07:59:37 --> Invalid file: layout/home.php
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/home', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Home.php(9): view('pages/home')
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-07-08 09:46:36 --> Call to undefined method App\Models\User::store
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\User.php(29): CodeIgniter\Model->__call('store', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->store()
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-07-08 10:12:34 --> noAuth filter must have a matching alias defined.
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noAuth')
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('noAuth', 'before')
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#5 {main}
+CRITICAL - 2021-07-08 10:35:36 --> Undefined variable: Lokasi
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Views\pages\lokasi\lokasi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 47, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/lokasi/lo...', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Lokasi.php(24): view('pages/lokasi/lo...', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lokasi->index()
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-07-08 10:40:10 --> Undefined index: lokasi
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Lokasi.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 57, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Lokasi.php(47): App\Models\Lokasi->ubah(Array, '1')
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lokasi->update('1')
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-07-08 11:16:13 --> Invalid file: layout/home.php
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('layout/home', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Home.php(21): view('layout/home', Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
