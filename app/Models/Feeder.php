@@ -50,4 +50,15 @@ class Feeder extends Model
 
 		$this->insert($data);
 	}
+
+	public function ubah($post, $record)
+	{
+		$data = [
+			'nama_feeder' => $post['namaFeeder'],
+			'kap_feeder' => $post['kapFeeder'],
+			'core_feeder' => $post['coreFeeder']
+		];
+
+		$this->update($record['id_feeder'], $data);
+	}
 }

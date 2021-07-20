@@ -50,4 +50,15 @@ class Distribusi extends Model
 
 		$this->insert($data);
 	}
+
+	public function ubah($post, $record)
+	{
+		$data = [
+			'nama_dist' => $post['namaDist'],
+			'kap_dist' => $post['kapDist'],
+			'core_dist' => $post['coreDist']
+		];
+
+		$this->update($record['id_dist'], $data);
+	}
 }

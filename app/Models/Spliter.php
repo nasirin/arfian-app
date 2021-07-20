@@ -52,4 +52,17 @@ class Spliter extends Model
 
 		$this->insert($data);
 	}
+
+	public function ubah($post, $record)
+	{
+		$data = [
+			'frame_count_spliter_1' => $post['frameCountSpliter1'],
+			'panel_spliter_1' => $post['panelSpliter1'],
+			'core_1' => $post['coreSpliter1'],
+			'nama_spliter' => $post['namaSpliter'],
+			'out_spliter' => $post['outSpliter'], 'frame_count_spliter_2' => $post['frameCountSpliter2'], 'panel_spliter_2' => $post['panelSpliter2'], 'core_2' => $post['coreSpliter2']
+		];
+
+		$this->update($record['id_spliter'], $data);
+	}
 }

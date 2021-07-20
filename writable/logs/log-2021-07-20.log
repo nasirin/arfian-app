@@ -1,0 +1,16 @@
+CRITICAL - 2021-07-20 05:54:45 --> Call to undefined method App\Models\Distribusi::ubah
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(82): CodeIgniter\Model->__call('ubah', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->updated('2')
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-07-20 06:10:25 --> Undefined index: odp
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 106, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->destroy('2')
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}

@@ -43,11 +43,40 @@ class Ftm extends Model
 	public function simpan($post)
 	{
 		$data = [
-			'frame_count_ftm_1' => $post['frameCountFTM1'], 'panel_ftm_1' => $post['panelFTM1'],
-			'port_ftm_1' => $post['portFTM1'], 'frame_count_ftm_2' => $post['frameCountFTM2'], 'panel_ftm_2' => $post['panelFTM2'],
-			'port_ftm_2' => $post['portFTM2'], 'frame_count_ftm_3' => $post['frameCountFTM3'], 'panel_ftm_3' => $post['panelFTM3'], 'port_ftm_3' => $post['portFTM3'], 'frame_count_ftm_4' => $post['frameCountFTM4'], 'panel_ftm_4' => $post['panelFTM4'], 'port_ftm_4' => $post['portFTM4'],
+			'frame_count_ftm_1' => $post['frameCountFTM1'],
+			'panel_ftm_1' => $post['panelFTM1'],
+			'port_ftm_1' => $post['portFTM1'],
+			'frame_count_ftm_2' => $post['frameCountFTM2'],
+			'panel_ftm_2' => $post['panelFTM2'],
+			'port_ftm_2' => $post['portFTM2'],
+			'frame_count_ftm_3' => $post['frameCountFTM3'],
+			'panel_ftm_3' => $post['panelFTM3'],
+			'port_ftm_3' => $post['portFTM3'],
+			'frame_count_ftm_4' => $post['frameCountFTM4'],
+			'panel_ftm_4' => $post['panelFTM4'],
+			'port_ftm_4' => $post['portFTM4'],
 		];
 
 		$this->insert($data);
+	}
+
+	public function ubah($post, $record)
+	{
+		$data = [
+			'frame_count_ftm_1' => $post['frameCountFTM1'],
+			'panel_ftm_1' => $post['panelFTM1'],
+			'port_ftm_1' => $post['portFTM1'],
+			'frame_count_ftm_2' => $post['frameCountFTM2'],
+			'panel_ftm_2' => $post['panelFTM2'],
+			'port_ftm_2' => $post['portFTM2'],
+			'frame_count_ftm_3' => $post['frameCountFTM3'],
+			'panel_ftm_3' => $post['panelFTM3'],
+			'port_ftm_3' => $post['portFTM3'],
+			'frame_count_ftm_4' => $post['frameCountFTM4'],
+			'panel_ftm_4' => $post['panelFTM4'],
+			'port_ftm_4' => $post['portFTM4'],
+		];
+
+		$this->update($record['id_ftm'], $data);
 	}
 }

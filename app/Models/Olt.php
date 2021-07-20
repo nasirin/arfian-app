@@ -51,6 +51,17 @@ class Olt extends Model
 		$this->insert($data);
 	}
 
+	public function ubah($post,$record)
+	{
+		$data = [
+			'olt' => $post['namaOLT'],
+			'modul' => $post['modulOLT'],
+			'port_olt' => $post['portOLT']
+		];
+
+		$this->update($record['id_olt'], $data);
+	}
+
 	public function menu()
 	{
 		return $this->db->table($this->table)

@@ -46,4 +46,11 @@ class Odp extends Model
 
 		$this->insert($data);
 	}
+
+	public function ubah($post, $record)
+	{
+		$data['odp'] = $post['namaODP'];
+
+		$this->update($record['id_odp'], $data);
+	}
 }

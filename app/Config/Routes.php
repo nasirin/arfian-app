@@ -55,7 +55,8 @@ $routes->group('lokasi', ['filter' => 'noAuth'], function ($routes) {
 
 $routes->group('data', ['filter' => 'noAuth'], function ($routes) {
 	$routes->post('store', 'Data::store');
-	$routes->post('update/(:num)', 'Data::update/$1');
+	$routes->post('update/(:num)', 'Data::updated/$1');
+	$routes->get('hapus/(:num)', 'Data::destroy/$1');
 });
 
 $routes->group('sto', ['filter' => 'noAuth'], function ($routes) {

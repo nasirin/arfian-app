@@ -56,6 +56,22 @@ class Odc extends Model
 		$this->insert($data);
 	}
 
+	public function ubah($post, $record)
+	{
+		$data = [
+			'nama_odc' => $post['namaODC'],
+			'kap_odc' => $post['kapODC'],
+			'panel_in' => $post['panelInODC'],
+			'port_odc_1' => $post['portODC1'],
+			'spliter_odc' => $post['splitterODC'],
+			'out_odc' => $post['outODC'],
+			'panel_out' => $post['panelOutODC'],
+			'port_odc_2' => $post['portODC2']
+		];
+
+		$this->update($record['id_odc'], $data);
+	}
+
 	public function menu()
 	{
 		return $this->db->table($this->table)

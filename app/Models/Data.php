@@ -57,6 +57,16 @@ class Data extends Model
 		$this->insert($data);
 	}
 
+	public function ubah($post, $id)
+	{
+		$data = [
+			'id_lokasi' => $post['lokasi'],
+			'id_user' => session('id')
+		];
+
+		$this->update($id, $data);
+	}
+
 	public function odc($lokasi, $odc)
 	{
 		return $this->db->table($this->table)

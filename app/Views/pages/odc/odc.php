@@ -142,7 +142,7 @@
                                         <td><?= $data['odp'] ?></td>
                                         <td>
                                             <a href="/sto/odc/ubah/<?= $data['id_all'] ?>" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
-                                            <a href="" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                                            <a href="/data/hapus/<?= $data['id_all'] ?>" onclick="return confirm('Apakah Anda Yakin?')" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>

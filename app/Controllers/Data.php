@@ -68,6 +68,50 @@ class Data extends BaseController
 
 	public function updated($id)
 	{
-		$post = $this->data->getODC($id);
+		$record = $this->data->getODC($id);
+		$post = $this->request->getVar();
+
+		// dd($post);
+
+		// insert data
+		$this->olt->ubah($post, $record);
+		$this->ftm->ubah($post, $record);
+		$this->spliter->ubah($post, $record);
+		$this->feeder->ubah($post, $record);
+		$this->odc->ubah($post, $record);
+		$this->distribusi->ubah($post, $record);
+		$this->odp->ubah($post, $record);
+		$this->data->ubah($post, $id);
+
+		if ($this->data->affectedRows()) {
+			session()->setFlashdata('success', 'Data has been changed');
+			return redirect()->back();
+		} else {
+			session()->setFlashdata('error', 'Try Again');
+			return redirect()->back()->withInput();
+		}
+	}
+
+	public function destroy($id)
+	{
+		$record = $this->data->find($id);
+
+		// delete dta
+		$this->olt->delete($record['id_olt']);
+		$this->ftm->delete($record['id_ftm']);
+		$this->spliter->delete($record['id_spliter']);
+		$this->feeder->delete($record['id_feeder']);
+		$this->odc->delete($record['id_odc']);
+		$this->distribusi->delete($record['id_dist']);
+		$this->odp->delete($record['id_odp']);
+		$this->data->delete($id);
+
+		if ($this->data->affectedRows()) {
+			session()->setFlashdata('success', 'Data has been changed');
+			return redirect()->back();
+		} else {
+			session()->setFlashdata('error', 'Try Again');
+			return redirect()->back()->withInput();
+		}
 	}
 }
