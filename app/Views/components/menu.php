@@ -48,13 +48,15 @@
                                 </a>
 
                                 <ul class="submenu customenu">
-                                    <?php foreach ($menuODC as $menu) : ?>
-                                        <li>
-                                            <a href="/sto/odc/lokasi/<?= $data['nama_lokasi'] ?>/<?= $menu['nama_odc'] ?>">
-                                                <i class="menu-icon fa fa-bolt"></i>
-                                                <span class="menu-text"><?= $menu['nama_odc'] ?></span>
-                                            </a>
-                                        </li>
+                                    <?php foreach ($menu as $menus) : ?>
+                                        <?php if ($data['nama_lokasi'] == $menus['nama_lokasi']) : ?>
+                                            <li>
+                                                <a href="/sto/odc/lokasi/<?= $data['nama_lokasi'] ?>/<?= $menus['nama_odc'] ?>">
+                                                    <i class="menu-icon fa fa-bolt"></i>
+                                                    <span class="menu-text"><?= $menus['nama_odc'] ?></span>
+                                                </a>
+                                            </li>
+                                        <?php endif; ?>
                                     <?php endforeach; ?>
                                 </ul>
                             </li>
@@ -101,13 +103,15 @@
                                 </a>
 
                                 <ul class="submenu customenu">
-                                    <?php foreach ($menuOLT as $menu) : ?>
-                                        <li>
-                                            <a href="/sto/lokasi/<?= $data['nama_lokasi'] ?>/<?= $menu['olt'] ?>">
-                                                <i class="menu-icon fa fa-bolt"></i>
-                                                <span class="menu-text"><?= $menu['olt'] ?></span>
-                                            </a>
-                                        </li>
+                                    <?php foreach ($menu as $menuss) : ?>
+                                        <?php if ($data['nama_lokasi'] == $menuss['nama_lokasi']) : ?>
+                                            <li>
+                                                <a href="/sto/lokasi/<?= $data['nama_lokasi'] ?>/<?= $menuss['olt'] ?>">
+                                                    <i class="menu-icon fa fa-bolt"></i>
+                                                    <span class="menu-text"><?= $menuss['olt'] ?></span>
+                                                </a>
+                                            </li>
+                                        <?php endif; ?>
                                     <?php endforeach; ?>
                                 </ul>
                             </li>

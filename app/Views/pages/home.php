@@ -190,7 +190,7 @@
                         <div class="step-pane" id="simplewizardstep6">
                             <div class="form-group">
                                 <label>Nama ODC</label>
-                                <input type="text" name="namaODC" class="form-control" placeholder="Nama ODC">
+                                <input type="text" required name="namaODC" class="form-control" placeholder="Nama ODC">
                             </div>
                             <div class="form-group">
                                 <label>Kap ODC</label>

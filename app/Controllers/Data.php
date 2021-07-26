@@ -7,6 +7,7 @@ use App\Models\Data as ModelsData;
 use App\Models\Distribusi;
 use App\Models\Feeder;
 use App\Models\Ftm;
+use App\Models\Menu;
 use App\Models\Odc;
 use App\Models\Odp;
 use App\Models\Olt;
@@ -22,6 +23,7 @@ class Data extends BaseController
 	protected $distribusi;
 	protected $odp;
 	protected $data;
+	protected $menu;
 
 	public function __construct()
 	{
@@ -33,6 +35,7 @@ class Data extends BaseController
 		$this->distribusi = new Distribusi();
 		$this->odp = new Odp();
 		$this->data = new ModelsData();
+		$this->menu = new Menu();
 	}
 
 	public function store()
@@ -59,10 +62,15 @@ class Data extends BaseController
 			'odp' => $this->odp->getInsertID(),
 			'lokasi' => $post['lokasi']
 		];
-
+		// dd($data['odc']);
 		$this->data->simpan($data);
+		$this->menu->simpan($data);
 
-		session()->setFlashdata('success', 'Insert data successfully');
+		if ($this->data->AffectedRows()) {
+			session()->setFlashdata('success', 'Insert data successfully');
+		} else {
+			session()->setFlashdata('error', 'Try Again!');
+		}
 		return redirect()->back();
 	}
 

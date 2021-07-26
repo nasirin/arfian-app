@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Lokasi as ModelsLokasi;
+use App\Models\Menu;
 use App\Models\Odc;
 use App\Models\Olt;
 
@@ -12,12 +13,14 @@ class Lokasi extends BaseController
 	protected $lokasi;
 	protected $odc;
 	protected $olt;
+	protected $menu;
 
 	public function __construct()
 	{
 		$this->odc = new Odc();
 		$this->olt = new Olt();
 		$this->lokasi = new ModelsLokasi();
+		$this->menu = new Menu();
 	}
 
 	public function index()
@@ -25,8 +28,9 @@ class Lokasi extends BaseController
 		$data = [
 			'no' => 1,
 			'lokasi' => $this->lokasi->findAll(),
-			'menuODC' => $this->odc->menu(),
-			'menuOLT' => $this->olt->menu()
+			// 'menuODC' => $this->odc->menu(),
+			// 'menuOLT' => $this->olt->menu(),
+			'menu' => $this->menu->getMenu(),
 		];
 
 		return view('pages/lokasi/lokasi', $data);

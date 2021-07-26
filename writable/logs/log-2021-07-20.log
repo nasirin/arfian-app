@@ -14,3 +14,73 @@ CRITICAL - 2021-07-20 06:10:25 --> Undefined index: odp
 #4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
 #6 {main}
+CRITICAL - 2021-07-20 18:24:46 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:26:17 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:27:04 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:33:51 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:37:53 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:39:25 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(51): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(66): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-07-20 18:53:15 --> Undefined index: odc
+#0 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 47, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Models\Menu.php(52): App\Models\Menu->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\app\Controllers\Data.php(67): App\Models\Menu->simpan(Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Data->store()
+#4 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\arfian\arfian-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}

@@ -42,6 +42,7 @@ class Data extends Model
 
 	public function simpan($post)
 	{
+		// dd($post);
 		$data = [
 			'id_olt' => $post['olt'],
 			'id_ftm' => $post['ftm'],
