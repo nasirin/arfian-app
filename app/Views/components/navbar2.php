@@ -5,7 +5,7 @@
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                        <img src="/assets/logo.png" alt="" style="width: 25px; height: 30px;" />
+                        <img src="/assets/logo-only.png" alt="" style="width: 25px; height: 30px;" />
                         Telkom Akses
                     </small>
                 </a>
