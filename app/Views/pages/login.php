@@ -58,7 +58,7 @@ Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB0
         </form>
         <div class="logobox">
             <div class="row text-center">
-                <img src="/assets/logo.png" alt="">
+                <img src="/assets/logo.png" alt="" width="50">
                 <!-- <span style="font-size: 20px;">Telkom Akses</span> -->
             </div>
         </div>
