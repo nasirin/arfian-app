@@ -16,7 +16,7 @@ Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB0
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/logo-only.png" type="image/x-icon">
 
     <!--Basic Styles-->
     <link href="/template/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -58,8 +58,8 @@ Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB0
         </form>
         <div class="logobox">
             <div class="row text-center">
-                <img src="/assets/logo.png" alt="" width="40">
-                <span style="font-size: 20px;">Telkom Akses</span>
+                <img src="/assets/logo.png" alt="">
+                <!-- <span style="font-size: 20px;">Telkom Akses</span> -->
             </div>
         </div>
     </div>

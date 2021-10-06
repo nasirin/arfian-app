@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>TELKOM AKSES</title>
-	<link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="/assets/logo-only.png" type="image/x-icon">
 
 	<meta name="description" content="Dashboard" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
