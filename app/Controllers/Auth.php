@@ -22,11 +22,11 @@ class Auth extends BaseController
 	public function login()
 	{
 		$post = $this->request->getVar();
-		// dd($post);
 		$user = $this->user
 			->where('notelp', $post['notelp'])
 			->where('password', md5($post['password']))
 			->first();
+		// dd($user);
 		if ($user) {
 			$data = [
 				'id' => $user['id_user'],
