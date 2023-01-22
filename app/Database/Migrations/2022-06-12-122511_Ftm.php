@@ -35,6 +35,10 @@ class Ftm extends Migration
 				'type'           => 'VARCHAR',
 				'constraint'     => 255,
 			],
+			'port_ftm_2' => [
+				'type'           => 'VARCHAR',
+				'constraint'     => 255,
+			],
 			'frame_count_ftm_3' => [
 				'type'           => 'VARCHAR',
 				'constraint'     => 255,
