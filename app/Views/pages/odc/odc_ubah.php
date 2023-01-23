@@ -50,13 +50,11 @@
                         <div class="step-pane active" id="simplewizardstep1">
                             <div class="form-group">
                                 <label>Lokasi</label>
-                                <select name="lokasi" id="" class="form-control" required autofocus>
-                                    <option value="<?= $odc['id_lokasi'] ?>"><?= $odc['nama_lokasi'] ?> (selected)</option>
-                                    <option value="">--- Pilih Lokasi ---</option>
-                                    <?php foreach ($lokasi as $data) : ?>
-                                        <option value="<?= $data['id_lokasi'] ?>"><?= $data['nama_lokasi'] ?></option>
-                                    <?php endforeach; ?>
-                                </select>
+                                <input type="hidden" name='lokasi' value="<? $odc['id_lokasi'] ?>">
+                                <input type="text" value="<?= $odc['nama_lokasi'] ?>" class="form-control" readonly>
+
+
+                                
                             </div>
                         </div>
 

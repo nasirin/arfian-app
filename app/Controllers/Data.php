@@ -79,8 +79,6 @@ class Data extends BaseController
 		$record = $this->data->getODC($id);
 		$post = $this->request->getVar();
 
-		// dd($post);
-
 		// insert data
 		$this->olt->ubah($post, $record);
 		$this->ftm->ubah($post, $record);
@@ -91,13 +89,15 @@ class Data extends BaseController
 		$this->odp->ubah($post, $record);
 		$this->data->ubah($post, $id);
 
-		if ($this->data->affectedRows()) {
-			session()->setFlashdata('success', 'Data has been changed');
-			return redirect()->back();
-		} else {
-			session()->setFlashdata('error', 'Try Again');
-			return redirect()->back()->withInput();
-		}
+		// dd($this->odp->affectedRows());
+
+		session()->setFlashdata('success', 'Data has been changed');
+		return redirect()->back();
+		// if ($this->data->affectedRows()) {
+		// } else {
+		// 	session()->setFlashdata('error', 'Try Again');
+		// 	return redirect()->back()->withInput();
+		// }
 	}
 
 	public function destroy($id)
